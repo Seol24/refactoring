@@ -56,14 +56,14 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">556</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">68</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">115</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">116</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">95</XPD:ATTR>
 <XPD:ATTR name="WordWrap" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Model">57gT7GKVXEC4oKagvVOarAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="FHs0VHtJt0OqXCJzmLanbQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="M+XonKSDLU2tYVNWnbLBHAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">105</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">106</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">Rental</XPD:ATTR>
 </XPD:OBJ>
@@ -203,7 +203,7 @@
 <XPD:OBJ name="OwnedViews[4]" type="UMLAssociationView" guid="T4alMbjXjUiGsTOuNR7SLgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">808,126;670,118</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">808,126;671,118</XPD:ATTR>
 <XPD:REF name="Model">qFQPygKXHEuPCcm1kOOmbAAA</XPD:REF>
 <XPD:REF name="Head">/y/OvpdxFEmPOFEACabzZAAA</XPD:REF>
 <XPD:REF name="Tail">gITFWVGRQUuDJAW7mj+/lwAA</XPD:REF>
@@ -389,7 +389,7 @@
 <XPD:REF name="ClientDependencies[0]">bzOUlv02f0ubpREac20UZwAA</XPD:REF>
 <XPD:ATTR name="#Generalizations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Generalizations[0]">LjLgO1bcA02u1FGXqNwUpwAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="h+UaANG620Cf/iiXNgt/ZQAA">
 <XPD:ATTR name="Name" type="string">getMoive</XPD:ATTR>
 <XPD:REF name="Owner">57gT7GKVXEC4oKagvVOarAAA</XPD:REF>
@@ -408,6 +408,16 @@
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">hDU+MpLGnEiU7PxujfhqDgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="a82CFC3KmU2HgfyPRAsYIgAA">
+<XPD:ATTR name="Name" type="string">getCharge</XPD:ATTR>
+<XPD:REF name="Owner">57gT7GKVXEC4oKagvVOarAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="jlXa7pdEXESQq4QO4gHptwAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">double</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">a82CFC3KmU2HgfyPRAsYIgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
@@ -572,6 +582,7 @@
 <XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Connections[0]" type="UMLAssociationEnd" guid="AUGX0Ro85k6HwXDpjylDHgAA">
 <XPD:ATTR name="IsNavigable" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Aggregation" type="UMLAggregationKind">akComposite</XPD:ATTR>
 <XPD:ATTR name="Multiplicity" type="string">0..1</XPD:ATTR>
 <XPD:REF name="Association">qFQPygKXHEuPCcm1kOOmbAAA</XPD:REF>
 <XPD:REF name="Participant">DVyO2N9ztU+xKxWuELAD5wAA</XPD:REF>
