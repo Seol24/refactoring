@@ -3,18 +3,22 @@ package refactoring.dto;
 public class Rental {
 	private Movie movie;
 	private int daysRented;
+
 	public Rental(Movie movie, int daysRented) {
 		this.movie = movie;
 		this.daysRented = daysRented;
 	}
+
 	public Movie getMovie() {
 		return movie;
 	}
+
 	public int getDaysRented() {
 		return daysRented;
 	}
+
 	public double getCharge() {
-		// 비디오물당 대여료 
+		// 비디오물당 대여료
 		// 1. 일반물 (2일) 2000원, 일일초과 1500원, 적립1
 		// 2. 아동물 (3일) 1500원, 일일초과 1500원, 적립1
 		// 3. 최신물 (1일) 3000원, 일일초과 3000원, 적립1
@@ -39,5 +43,11 @@ public class Rental {
 		return result;
 	}
 
-	
+	public int getFrequentRentalPoints() {
+		if (getMovie().getPriceCode() == Movie.NEW_RELEASE && getDaysRented() > 1) {
+			return 2;
+		} else {
+			return 1;
+		}
+	}
 }
